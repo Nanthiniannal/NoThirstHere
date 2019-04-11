@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "743260637192",
+    "firebase_url": "https://nothirsthere.firebaseio.com",
+    "project_id": "nothirsthere",
+    "storage_bucket": "nothirsthere.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743260637192:android:f418fa91e7595661",
+        "android_client_info": {
+          "package_name": "com.example.nothirsthere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743260637192-h9haqgth3ooa8jfc0891pqcda8t6pq1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nothirsthere",
+            "certificate_hash": "c4a6c425287312044217b5c8ce8296d1170f996d"
+          }
+        },
+        {
+          "client_id": "743260637192-gbgcb2je5psd620pd00g7kd2r5m12f2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBehCuPDPcJWoXzJ7VCP8C8dn6Z60MCnxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743260637192-gbgcb2je5psd620pd00g7kd2r5m12f2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

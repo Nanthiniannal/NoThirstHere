@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dealermain">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ADD CANS"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/water"
+        android:id="@+id/b1"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="Enter no of cans u want to add..."
+        android:textSize="20dp"
+        android:id="@+id/v1"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="add now"
+        android:id="@+id/b4"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/red"
+        android:text="VIEW AVAILABLE CANS"
+        android:textSize="30dp"
+        android:layout_marginTop="320dp"
+        android:id="@+id/b2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/v2"
+        android:textSize="20dp"
+        android:textColorHighlight="@color/water"
+
+        android:visibility="gone"
+        android:layout_marginLeft="50dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:text="ORDER DETAILS"
+        android:textSize="30dp"
+        android:layout_marginTop="470dp"
+        android:id="@+id/b3"/>
+
+</RelativeLayout>
